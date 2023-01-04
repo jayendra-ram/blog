@@ -6,7 +6,7 @@
 </script>
 
 <p>
-	<span class="author">{author}</span>
+	<!--<span class="author">{author}</span>-->
 	<span class="date">{formattedDate}</span>
 </p>
 

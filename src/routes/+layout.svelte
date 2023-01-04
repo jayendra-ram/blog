@@ -3,7 +3,7 @@
 </script>
 
 <header>
-	<a href="/"><h1 class:small={$page.url.pathname !== '/'}>SvelteKit + MDsveX Blog</h1></a>
+	<a href="/"><h1 class:small={$page.url.pathname !== '/'}>jay's world</h1></a>
 </header>
 
 <main>
@@ -12,14 +12,14 @@
 
 <footer>
 	<p>
-		Copyright &#169; <a href="https://twitter.com/mehdi_vasigh">Mehdi Vasigh</a>, {new Date().getFullYear()}
+		Copyright &#169; <a href="https://twitter.com/jayendra_ram">jayendra ram</a>, {new Date().getFullYear()}
 	</p>
 </footer>
 
 <style>
 	:global(:root) {
 		--spacing-unit: 4px;
-		--color-background: #e5e5e5;
+		--color-background: #ffffff;
 		--color-text-primary: #212121;
 		--color-text-secondary: #5a5a5a;
 	}
