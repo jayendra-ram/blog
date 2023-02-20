@@ -18,9 +18,6 @@
 
 
 	
-	
-	<a href="projects">(build reel)</a>
-
 
 {#each data.posts as { slug, title, author, description, date }}
 	<Article>
