@@ -8,14 +8,35 @@ published: true
 
 <script>
   import Counter from '$lib/components/Counter.svelte'
+  import Chart from '$lib/components/Chart.svelte'
+  import * as d3 from "d3";
+
+  let data = []
+ d3.csv(
+   "https://raw.githubusercontent.com/barnarderc/workshops/master/pokemon.csv"
+ ).then(res => {
+   data = res.slice(0, 200);
+ });
+
 </script>
+
+dd
+
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque orci nec facilisis iaculis. Sed accumsan placerat dolor. Donec sollicitudin nisi sit amet sodales molestie. Maecenas sit amet dolor nulla. Fusce sed elit et erat consequat dignissim. Nunc eu erat felis. Mauris pretium, arcu eu dapibus tempor, mauris eros tempor tortor, eu tincidunt erat libero sit amet mi. Phasellus eu libero mollis, finibus lacus eget, sollicitudin nulla.
 
 Here's a random Svelte component thrown into my MDsveX markdown:
 
-<Counter />
+<Chart/>
 
+<svg width="500" height="300"  style="border: 1px solid red">
+{#each data as d}
+<circle cx="10" cy="10" r="5" fill="teal"></circle>
+{/each}
+</svg>
+
+<Counter/>
 ## Example heading
 
 In lectus erat, maximus sed pulvinar eu, elementum vehicula mi. Maecenas nec dui urna. Nunc at magna purus. Cras facilisis, purus in dignissim egestas, ante ligula malesuada leo, quis malesuada dolor tortor vitae mauris. Morbi auctor mauris nibh, ut sodales tortor volutpat in. Donec aliquet ex eget ullamcorper semper. Proin vel libero at nulla gravida blandit. Maecenas odio massa, pretium blandit lectus ac, vehicula ultrices justo. Suspendisse libero dolor, tristique quis laoreet vel, placerat vel nisl. Nunc et venenatis nunc, vitae fringilla risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus consectetur pellentesque ipsum, in hendrerit lectus ultricies quis. Morbi ultrices, elit nec lacinia vulputate, dolor nibh commodo justo, quis dictum nisi nulla vel mi.

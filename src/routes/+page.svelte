@@ -12,9 +12,9 @@
 
 <PageHead title="Home" description="jay's blog" />
 
-<p>
-	AI, philosophy, comedy, statistics, finance (from least lame to most lame)	
-</p>
+<p><i>
+	True wisdom is the understanding of the underlying concepts: how they relate to situations that seem uncorrelated but, in reality, are.
+</i></p>
 
 
 	
