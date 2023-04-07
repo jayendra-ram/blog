@@ -10,12 +10,11 @@
 	export let data: PageData;
 </script>
 
+<div class="header">
 <PageHead title="Home" description="jay's blog" />
 
-<p><i>
-	True wisdom is the understanding of the underlying concepts: how they relate to situations that seem uncorrelated but, in reality, are.
-</i></p>
 
+</div>
 
 	
 
@@ -28,3 +27,27 @@
 {/each}
 
 <slot />
+
+<style>
+	.header {
+		background-color: lightgray;
+		margin-bottom: calc(var(--spacing-unit) * 8);
+	}
+
+	.header p {
+		margin: 0;
+		margin-bottom: calc(var(--spacing-unit) * 4);
+	}
+
+	.header p i {
+		font-size: 1.2rem;
+	}
+
+	.header p i::before {
+		content: '“';
+	}
+
+	.header p i::after {
+		content: '”';
+	}
+</style>

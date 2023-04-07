@@ -2,8 +2,11 @@
 	import { page } from '$app/stores';
 </script>
 
-<header>
+<header class='orange'>
 	<a href="/"><h1 class:small={$page.url.pathname !== '/'}>jay's world</h1></a>
+	<p><i>
+		True wisdom is the understanding of the underlying concepts: how they relate to situations that seem uncorrelated but, in reality, are.
+	</i></p>
 </header>
 
 <main>
@@ -17,6 +20,9 @@
 </footer>
 
 <style>
+	.orange{
+		--background-color: orange;
+	}
 	:global(:root) {
 		--spacing-unit: 4px;
 		--color-background: #ffffff;

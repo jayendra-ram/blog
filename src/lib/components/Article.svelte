@@ -1,4 +1,3 @@
-
 <article>
 	<slot />
 </article>
