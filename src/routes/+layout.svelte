@@ -8,7 +8,7 @@
 		<h1 class:small={$page.url.pathname !== "/"}>jay's world</h1>
 	  </a>
 	  <p>
-		<i>tech, consciousness, finance, and physics</i>
+		<i>assorted ideas</i>
 	  </p>
 	</div>
 	<div class="header-background"></div>
@@ -67,8 +67,9 @@
 	  height: 100%;
 	  background-image: url("https://www.sriramanamaharshi.org/wp-content/uploads/2013/01/Arunachala_gallery-6.jpg");
 	  background-size: cover;
-	  background-position: center bottom 550px;
+	  background-position: center bottom 400px;
 	  transform-origin: center bottom;
+	  scale: 1.2;
 	}
   
 	.content {
