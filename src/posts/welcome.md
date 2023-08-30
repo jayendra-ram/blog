@@ -3,7 +3,7 @@ title: 'reading list'
 description: 'reasons for this blog'
 author: 'jay'
 date: '2023-02-20'
-published: true
+published: false
 ---
 
 
@@ -17,20 +17,24 @@ Jim Keller
 1. algorithms to live by
 
 ## performance
-1. peak - anders ericson
+2. peak - anders ericson
 
-2. the art of learning - josh waistkin
+3. the art of learning - josh waistkin
 
 ## progrmaming
 
+4. clean code - uncle bob
+
 ## math
 
+
+
 ## spirituality/philosophy
-1. bhagavad gita
+4. bhagavad gita
 
-2. republic - plato
+5. republic - plato
 
-3. selected works - seneca
+6. selected works - seneca
 
 
 ## investing

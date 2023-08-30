@@ -16,7 +16,7 @@
 <!-- make color blue -->
 <style>
 	:header {
-		background-color: blue;
+		background-color: blue !important;
 	}
 
 </style>

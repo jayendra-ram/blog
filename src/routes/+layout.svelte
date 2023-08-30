@@ -1,65 +1,96 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-</script>
-
-<header class='orange'>
-	<a href="/"><h1 class:small={$page.url.pathname !== '/'}>jay's world</h1></a>
-	<p><i>
-		True wisdom is the understanding of the underlying concepts: how they relate to situations that seem uncorrelated but, in reality, are.
-	</i></p>
-</header>
-
-<main>
+  </script>
+  
+  <header class="header">
+	<div class="header-content">
+	  <a href="/">
+		<h1 class:small={$page.url.pathname !== "/"}>jay's world</h1>
+	  </a>
+	  <p>
+		<i>tech, consciousness, finance, and physics</i>
+	  </p>
+	</div>
+	<div class="header-background"></div>
+  </header>
+  
+  <main class="content">
 	<slot />
-</main>
-
-<footer>
+  </main>
+  
+  <footer class="footer">
 	<p>
-		Copyright &#169; <a href="https://twitter.com/jayendra_ram">jayendra ram</a>, {new Date().getFullYear()}
+	  &copy; <a href="https://twitter.com/jayendra_ram">Jayendra Ram</a>, {new Date().getFullYear()}
 	</p>
-</footer>
-
-<style>
-	.orange{
-		--background-color: orange;
+  </footer>
+  
+  <style>
+	.header {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  z-index: 1;
+	  padding: 2rem;
+	  text-align: center;
+	  color: white;
+	  height: 20vh;
 	}
-	:global(:root) {
-		--spacing-unit: 4px;
-		--color-background: #ffffff;
-		--color-text-primary: #212121;
-		--color-text-secondary: #5a5a5a;
+  
+	.header-content {
+	  position: relative;
+	  z-index: 2;
 	}
-
-	:global(body) {
-		margin: 0 auto;
-		max-width: 75ch;
-		padding: calc(var(--spacing-unit) * 8);
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-
-		background-color: var(--color-background);
-		color: var(--color-text-primary);
-		line-height: 1.51;
-		font-size: 18px;
+  
+	.header h1 {
+	  font-size: 3rem;
+	  margin: 0;
+	  font-family: 'Montserrat', sans-serif;
+	  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	  color: #ffffff;
 	}
-
-	:global(a, a:visited, a:active) {
-		text-decoration: none;
-		color: var(--color-text-primary);
-		font-weight: 700;
+  
+	.header p {
+	  font-size: 1.5rem;
+	  margin: 0;
+	  font-family: 'Montserrat', sans-serif;
+	  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+	  color: #fee1af;
 	}
-
-	:global(a:hover) {
-		text-decoration: underline;
+  
+	.header-background {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  background-image: url("https://www.sriramanamaharshi.org/wp-content/uploads/2013/01/Arunachala_gallery-6.jpg");
+	  background-size: cover;
+	  background-position: center bottom 550px;
+	  transform-origin: center bottom;
 	}
-
-	.small {
-		font-size: 1.6rem;
+  
+	.content {
+	  padding: 2rem;
+	  max-width: 75ch;
+	  margin: 0 auto;
+	  font-size: 1.2rem;
+	  font-family: 'Montserrat', sans-serif;
+	  line-height: 1.5;
 	}
-
-	footer {
-		margin-top: calc(var(--spacing-unit) * 8);
+  
+	.footer {
+	  bottom: 0;
+	  width: 100%;
+	  height: 6rem;
+	  font-size: 1.2rem;
+	  font-family: 'Montserrat', sans-serif;
 	}
-</style>
+  
+	.footer a {
+	  color: #666;
+	  font-weight: bold;
+	}
+  
+  </style>

@@ -3,7 +3,7 @@ title: 'first post'
 description: 'reasons for this blog'
 author: 'jay'
 date: '2023-01-04'
-published: true
+published: false
 ---
 
 <script>
