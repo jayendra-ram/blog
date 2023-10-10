@@ -18,11 +18,11 @@
 	<slot />
   </main>
   
-  <footer class="footer">
+  <!-- <footer class="footer">
 	<p>
-	  &copy; <a href="https://twitter.com/jayendra_ram">Jayendra Ram</a>, {new Date().getFullYear()}
+	  &copy; <a href="https://twitter.com/jayendra_ram">jayendra ram</a>, {new Date().getFullYear()}
 	</p>
-  </footer>
+  </footer> -->
   
   <style>
 	.header {
@@ -82,13 +82,12 @@
 	}
   
 	.footer {
-	  bottom: 0;
-	  width: 100%;
-	  height: 6rem;
-	  font-size: 1.2rem;
-	  font-family: 'Montserrat', sans-serif;
+		bottom: 0;
+		width: 100%;
+		height: 6rem;
+		font-size: 1.2rem;
+		font-family: 'Montserrat', sans-serif;
 	}
-  
 	.footer a {
 	  color: #666;
 	  font-weight: bold;

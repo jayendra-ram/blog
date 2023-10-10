@@ -1,51 +1,66 @@
 ---
-title: 'hey'
-description: 'whats up'
+title: 'library'
+description: 'an constantly updated list of things i've enjoyed reading'
 author: 'jay'
 date: '2023-02-20'
 published: true
 ---
 
-I got books bro.
+if you've read any of these and have enjoyed them, hit me up. all of these are good, but the real bnagers are marked by a star.
 
 ## rationality
 1. algorithms to live by
 
-## performance
-2. peak - anders ericson
+2. CFAR handbook
 
-3. the art of learning - josh waistkin
+3. the sequences - yud
+
+## performance
+4. peak - anders ericson
+
+5. the art of learning - josh waistkin
 
 ## progrmaming
 
-4. clean code - uncle bob
-
-## math
-
-
+6. clean code - uncle bob
 
 ## spirituality/philosophy
-4. bhagavad gita
+7. bhagavad gita
 
-5. republic - plato
+8. republic - plato
 
-6. selected works - seneca
+9. selected works - seneca
+
+10. dreaming yourself awake -- alan b wallace
+
+11. raja yoga - swami vivkenanda
+
+12. siddartha - herman hesse
 
 
 ## investing
-1. efficiently inefficient
+13. efficiently inefficient 
+
 
 ## libertarianism
-1. the fountainhead - ayn rand
+14. the fountainhead - ayn rand
+
+15. the network state - balaji srinivasan
+
+16. the soveirgn individual - rees mogg
 
 ## sci fi
-1. Do Andriods Dream of Electric Sheep
+17. do andriods dream of electric sheep - philip k. dick
+
+18. elon musk - walter isaacson
 
 ## physics
 
-1. surely you're joking mr feynman
+18. surely you're joking mr feynman (and also the sequels)
 
-2. the theoretical minimum (series)
+18. the theoretical minimum (series)
 
-3. quantum mechanics, shakar
+20. quantum mechanics, shakar
+
+
 
